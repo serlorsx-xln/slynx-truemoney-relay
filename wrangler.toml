@@ -1,0 +1,14 @@
+name = "truemoney-relay"
+main = "src/worker.ts"
+compatibility_date = "2025-10-01"
+
+# Rename `name` above to whatever you like before deploying - it becomes part of
+# your endpoint: https://<name>.<your-subdomain>.workers.dev
+#
+# Deploy:
+#   npx wrangler login
+#   npx wrangler deploy
+#   npx wrangler secret put RELAY_SECRET
+#
+# RELAY_SECRET is required. Requests without the matching X-Relay-Secret header
+# are rejected with 401. See README.md for the full setup guide.
