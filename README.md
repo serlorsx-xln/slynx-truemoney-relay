@@ -1,9 +1,3 @@
-# ⚠️ DEPRECATED — NO LONGER WORKING
-
-**This project no longer works** due to upstream API/service changes on TrueMoney's side, and it will not be fixed. It is kept public for reference and educational purposes only. Do not deploy it expecting working voucher verification.
-
----
-
 # truemoney-relay
 
 A tiny Cloudflare Worker that relays [TrueMoney gift voucher](https://gift.truemoney.com) **verify** and **redeem** API calls from your own server.
